@@ -1,0 +1,121 @@
+.title-text h1{
+    color: var(--neutral-900, #111827);
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: -1.5px;
+
+}
+
+.title-text p{
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.title-buttons a{
+    text-decoration: none;
+    padding: 16px 24px;
+    background-color: red;
+    border-radius: 8px;
+    background: var(--primary-600, #7C3AED);
+    color: #fff;
+    
+}
+
+.btn2 a{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    background-color: transparent;
+    color: #7C3AED;
+}
+.title-buttons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+
+.title-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 40%;
+}
+
+
+
+.title{
+    display: flex ;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+
+#title{
+    padding-top: 72px;
+    padding-bottom: 74px;
+}
+
+/* media for ipad  */
+
+@media (min-width:469px) and (max-width:1280px){
+
+    .title-text {
+        flex-basis: 100%;
+        padding: 0 15px;
+    }
+
+    .title{
+
+        flex-wrap: wrap;
+        gap: 70px;
+        
+    }  
+
+}
+
+/* media for mobile  */
+
+
+@media (max-width:468px){
+    .title{
+
+        flex-wrap: wrap;
+        gap: 30px;
+        
+    }  
+
+    .title-text {
+        flex-basis: 100%;
+        padding: 0 30px;
+    }
+
+
+    .title-text h1{
+    font-size: 48px;
+    
+    }
+    
+    .title-text p{
+    font-size: 18px;
+    }
+
+    
+    .title>img{
+        transform: scale(0.8);
+        
+    }
+
+    .title-buttons{
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+

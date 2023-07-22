@@ -1,0 +1,34 @@
+.brand-images{
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+    padding: 16px 0 ;
+}
+
+#brands{
+    padding: 24px 0;
+}
+
+/* media for ipad */
+
+
+@media (min-width:469px) and (max-width:1280px){
+    .brand-images{
+        flex-wrap: wrap;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+}
+
+
+/* media for mobile */
+
+@media (max-width:468px){
+    .brand-images{
+        flex-wrap: wrap;
+        padding-left:30px;
+        padding-right: 30px;
+
+    } 
+}
