@@ -64,54 +64,26 @@ font-weight: 400;
 }
 
 
-.images{
-   
-    position: relative;
-}
-
 .images :nth-child(2){
-    position: absolute;
-    top:0;
-    left: 50px;
+
+    display: none;
+
 }
+/* media for ipad  */
 
+@media (min-width:469px) and (max-width:1280px){
+    .advantage-top{
+        flex-direction: column;
+    }
 
-.images :nth-child(3){
-    position: absolute;
-    top:0;
-    left: 160px;
-}
-
-.images :nth-child(4){
-    position: absolute;
-    top:0;
-    left: 280px;
-}
-
-.images :nth-child(5){
-    position: absolute;
-    top:0;
-    left: 400px;
-}
-
-
-.images :nth-child(6){
-    position: absolute;
-    top:129px;
-    left: 100px;
+    .advantage-right{
+        padding: 10px 100px;
+        gap: 60px;
+    }
 }
 
 
 
-.images :nth-child(7){
-    position: absolute;
-    top:144px;
-    left: 242px;
-}
 
-.images :nth-child(8){
-    position: absolute;
-    top:134px;
-    left: 351px;
-}
+
 
