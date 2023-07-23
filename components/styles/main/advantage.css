@@ -1,0 +1,117 @@
+.advantage-left h4 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+}
+
+.advantage-left p{
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.advantage-span h5{
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: -0.9px;
+}
+
+
+.advantage-span p{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+.advantage-span {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.advantage-top  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 80px 0;
+}
+
+
+.advantage-right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    justify-content: space-between ;
+    gap: 35px;
+
+}
+
+.advantage-ellips{
+    width: 540px;
+    height: 270px;
+    border: 1px solid red;
+}
+
+.advantage-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.images{
+   
+    position: relative;
+}
+
+.images :nth-child(2){
+    position: absolute;
+    top:0;
+    left: 50px;
+}
+
+
+.images :nth-child(3){
+    position: absolute;
+    top:0;
+    left: 160px;
+}
+
+.images :nth-child(4){
+    position: absolute;
+    top:0;
+    left: 280px;
+}
+
+.images :nth-child(5){
+    position: absolute;
+    top:0;
+    left: 400px;
+}
+
+
+.images :nth-child(6){
+    position: absolute;
+    top:129px;
+    left: 100px;
+}
+
+
+
+.images :nth-child(7){
+    position: absolute;
+    top:144px;
+    left: 242px;
+}
+
+.images :nth-child(8){
+    position: absolute;
+    top:134px;
+    left: 351px;
+}
+
