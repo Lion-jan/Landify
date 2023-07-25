@@ -53,4 +53,16 @@ padding-bottom: 10px;
     .manage {
         flex-direction: column;
     }
+
+    .manage-img-1{
+        transform: translate(-180px ,0);
+    }
+    
+    
+    .manage-img-2{
+        transform: translate(187px  ,114px   );
+    }
+
+    
+
 }
