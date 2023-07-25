@@ -161,6 +161,11 @@ font-weight: 400;
         padding: 0;
     }
 
+    .advantage-left {
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+
 
 }
 
